@@ -34,9 +34,13 @@ git clone https://github.com/iMaary/cesares.git
 ```
 No diretório da aplicação, execute:
 ```shell
+$ npm install
+```
+E então:
+```shell
 $ ionic serve
 ```
-No navegador, abra ```localhost:0000/``` e você será redirecionado para as páginas que estão disponiveis até o momento.
+No navegador, abra ```localhost:8100/``` e você será redirecionado para as páginas que estão disponiveis até o momento.
 
 
 <h2>Integrantes</h2>
