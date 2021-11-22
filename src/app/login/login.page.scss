@@ -1,22 +1,26 @@
+ion-content{
+  --ion-background-color: #F8F7FB;
+}
+
 .loginToolbar{
   width: 44%;
   margin: auto;
 }
-.logo
-{
-  width: 50%;
-  margin: auto;
-  top: 18.59%;
-  bottom: 71.53%;
-  left: 38.65%;
-  right: 38.89%;
+.logoImage{
+  position: absolute;
+  left: 7.73%;
+  right: 74.15%;
+  top: 12.94%;
+  bottom: 79.09%;
 }
-.loginHeader{
-  width: 20%;
-  margin: auto;
-  font-weight: bold;
-}
+
 .loginCard{
-  width: 95%;
   margin: auto;
+  top: 322px;
+  left: 0px;
+  height: 222px;
+}
+
+.backclip{
+  position: inherit;
 }

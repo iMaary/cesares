@@ -6,28 +6,28 @@
 
 <ion-content>
 
-<ion-img class="logo" src="assets/cesar-logo.png" alt="falha ao carregar"></ion-img>
+<ion-img class="logoImage" src="assets/cesar-logo.png" alt="falha ao carregar"></ion-img>
+
 
 <div class="form">
-  <ion-card class="loginCard">
-    <ion-card-header>
-      <ion-card-title class="loginHeader">Login</ion-card-title>
-    </ion-card-header>
+  <ion-card class="loginCard" style="background: transparent;">
 
-    <ion-item>
-      <ion-label color="dark" position="floating">Email</ion-label>
+    <ion-item style="background: transparent;">
+      <ion-label color="dark" position="floating">Email Institucional</ion-label>
       <ion-input type="email" [(ngModel)]='email'></ion-input>
     </ion-item>
 
-    <ion-item>
+    <ion-item style="background: transparent;"> 
       <ion-label color="dark" position="floating">Senha</ion-label>
       <ion-input type="password" [(ngModel)]='password'></ion-input>
     </ion-item>
 
     <ion-card-content>
-      <ion-button color="light" style="width: 100%;" (click)="login()" expand="block">login</ion-button>
+      <ion-button color="borahae" style="width: 100%;" shape="round" (click)="login()" expand="block">login</ion-button>
     </ion-card-content>
   </ion-card>
 </div>
+
+<ion-img class="backclip" src="assets/back-smaller.png" alt="falha ao carregar"></ion-img>
 
 </ion-content>
