@@ -5,13 +5,13 @@
 export const environment = {
   production: false,
   firebaseConfig: {
-    apiKey: 'AIzaSyDMm1J4WWYDJQAs7d8T-UQCfp9QIzFqicw',
-    authDomain: 'projeto1-20d39.firebaseapp.com',
-    projectId: 'projeto1-20d39',
-    storageBucket: 'projeto1-20d39.appspot.com',
-    messagingSenderId: '599840878246',
-    appId: '1:599840878246:web:5f05bf3a32aca1dda44e67',
-    measurementId: 'G-4H36193N0Y'
+    apiKey: "AIzaSyDhmZmL0yy_tht5vVdF5_TP4o3RDX-JQC4",
+    authDomain: "clip-cesar.firebaseapp.com",
+    projectId: "clip-cesar",
+    storageBucket: "clip-cesar.appspot.com",
+    messagingSenderId: "1059003227375",
+    appId: "1:1059003227375:web:4c58947a0e1ea611f48f1a",
+    measurementId: "G-PPGXV2VN7M"
   }
 };
 

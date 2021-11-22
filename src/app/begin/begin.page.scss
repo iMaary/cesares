@@ -1,0 +1,71 @@
+ion-content{
+    --ion-background-color: #A1AFD2;
+}
+
+.hello{
+    position: absolute;
+    width: 244px;
+    height: 68px;
+    left: 67px;
+    top: 151px;
+
+    font-family: inherit;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 113.1%;
+    /* or 34px */
+
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    color: #FFECCC;
+}
+
+.intro{
+    position: absolute;
+    width: 307px;
+    height: 48px;
+    left: 36px;
+    top: 221px;
+
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    /* or 143% */
+
+    text-align: center;
+    letter-spacing: 0.1px;
+
+    color: #FFECCC;
+}
+
+.logo-cesar{
+    position: absolute;
+    left: 41.06%;
+    right: 40.82%;
+    top: 12.47%;
+    bottom: 79.65%;
+}
+
+.imag-be{
+    position: absolute;
+    width: 346.5px;
+    height: 345.5px;
+    left: 16px;
+    top: 301px;
+}
+
+.begin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 13.53%;
+    right: 13.29%;
+    top: 87.53%;
+    bottom: 7.76%;
+}
