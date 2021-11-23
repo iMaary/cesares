@@ -1,9 +1,33 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>signup</ion-title>
+    <ion-title class="loginToolbar">Tela de login</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+
+<ion-img class="logoImage" src="assets/cesar-logo.png" alt="falha ao carregar"></ion-img>
+
+
+<div class="form">
+  <ion-card class="loginCard">
+
+    <ion-item>
+      <ion-label color="dark" position="floating">Email Institucional</ion-label>
+      <ion-input type="email" [(ngModel)]='email'></ion-input>
+    </ion-item>
+
+    <ion-item> 
+      <ion-label color="dark" position="floating">Senha</ion-label>
+      <ion-input type="password" [(ngModel)]='password'></ion-input>
+    </ion-item>
+
+    <ion-card-content>
+      <ion-button color="borahae" style="width: 100%;" shape="round" (click)="signUp()" expand="block">Cadastre-se</ion-button>
+    </ion-card-content>
+  </ion-card>
+</div>
+
+<ion-img class="backclip" src="assets/back-smaller.png" alt="falha ao carregar"></ion-img>
 
 </ion-content>

@@ -1,15 +1,17 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-begin',
   templateUrl: './begin.page.html',
   styleUrls: ['./begin.page.scss'],
 })
-export class BeginPage implements OnInit {
+export class BeginPage {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
-  ngOnInit() {
-  }
+  init() {
+    this.router.navigateByUrl('register')
+  } 
 
 }

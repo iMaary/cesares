@@ -13,4 +13,9 @@ export class HomePage {
   login() {
     this.router.navigateByUrl('login');
   }
+
+  signUp() {
+    this.router.navigateByUrl('signup')
+  }
+  
 }

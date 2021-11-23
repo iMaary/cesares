@@ -23,12 +23,12 @@ ion-content{
   top: 70px; 
 }
 
-.escola{
+.xp{
   position: absolute;
   width: 287px;
   height: 77px;
   left: 25px;
-  top: 212px;
+  top: 220px;
   font-family: inherit;
   font-style: normal;
   font-weight: bold;
@@ -37,7 +37,7 @@ ion-content{
   letter-spacing: 0.4px;
 }
 
-.course{
+.funcao{
   position: absolute;
   width: 86px;
   height: 167px;
@@ -81,10 +81,10 @@ ion-content{
 
 .titulo{
   position: absolute;
-  width: 150px;
+  width: 208px;
   height: 33px;
   left: 25px;
-  top: 118px;
+  top: 100px;
   font-family: inherit;
   font-style: normal;
   font-weight: bold;
@@ -95,16 +95,30 @@ ion-content{
 
 .descri{
     position: absolute;
-    width: 274px;
+    width: 314px;
     height: 33px;
     left: 25px;
-    top: 143px;
+    top: 132px;
     font-family: inherit;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 24px;
     letter-spacing: 0.1px;
+}
+
+.about{
+  position: absolute;
+  width: 86px;
+  height: 167px;
+  left: 25px;
+  top: 612px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
 }
 
 .mais{
@@ -112,10 +126,10 @@ ion-content{
   width: 56px;
   height: 56px;
   left: 179px;
-  top: 648px;
+  top: 760px;
 }
 
-.skip{
+.back{
   position: absolute;
   width: 143px;
   height: 40px;
@@ -130,5 +144,13 @@ ion-content{
   height: 40px;
   left: 235px;
   bottom: -90px;
+}
 
+.skip{
+  position: absolute;
+  width: 119px;
+  height: 40px;
+  left: 235px;
+  bottom: -140px;
+  color: #5938A3;
 }
