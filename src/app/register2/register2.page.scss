@@ -56,11 +56,11 @@ ion-content{
   width: 167px;
   height: 24px;
   left: 25px;
-  top: 434px;
+  top: 412px;
   font-family: inherit;
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.1px;
 }
@@ -70,27 +70,49 @@ ion-content{
   width: 329px;
   height: 40px;
   left: 25px;
-  top: 464px;
+  top: 512px;
   font-family: inherit;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 0.25px;
 }
 
-.prtf{
+.titulo{
   position: absolute;
-  width: 195px;
-  height: 24px;
+  width: 150px;
+  height: 33px;
   left: 25px;
-  top: 624px;
+  top: 118px;
   font-family: inherit;
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 28px;
   line-height: 24px;
   letter-spacing: 0.1px;
+}
+
+.descri{
+    position: absolute;
+    width: 274px;
+    height: 33px;
+    left: 25px;
+    top: 143px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+.mais{
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  left: 179px;
+  top: 648px;
 }
 
 .skip{
