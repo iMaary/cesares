@@ -1,0 +1,112 @@
+ion-content{
+    --ion-background-color: #F8F7FB;
+  }
+
+.progress{
+    top: 20px;
+    margin: auto;
+    width: 107px;
+    /* left: -89px; */
+    right: 80px;
+    height: 9px;
+}
+
+.backclip{
+    position: inherit;
+}
+
+.icon{
+  position: absolute;
+  width: 101px;
+  height: 101px;
+  left: 132px;
+  top: 70px; 
+}
+
+.tocall{
+  position: absolute;
+  width: 287px;
+  height: 77px;
+  left: 25px;
+  top: 212px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+}
+
+.prono{
+  position: absolute;
+  width: 86px;
+  height: 167px;
+  left: 25px;
+  top: 312px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+}
+
+.whoareu{
+  position: absolute;
+  width: 167px;
+  height: 24px;
+  left: 25px;
+  top: 434px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+.descri{
+  position: absolute;
+  width: 329px;
+  height: 40px;
+  left: 25px;
+  top: 464px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+}
+
+.prtf{
+  position: absolute;
+  width: 195px;
+  height: 24px;
+  left: 25px;
+  top: 624px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+.skip{
+  position: absolute;
+  width: 143px;
+  height: 40px;
+  left: 25px;
+  bottom: -90px;
+  color: #5938A3;
+}
+
+.next{
+  position: absolute;
+  width: 119px;
+  height: 40px;
+  left: 235px;
+  bottom: -90px;
+
+}
