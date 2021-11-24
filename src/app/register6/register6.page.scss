@@ -1,0 +1,149 @@
+ion-content{
+    --ion-background-color: #F8F7FB;
+  }
+
+.progress{
+  top: 20px;
+  margin: auto;
+  width: 107px;
+  /* left: -89px; */
+  right: 80px;
+  height: 9px;
+}
+
+.backclip{
+  position: inherit;
+}
+
+.empresas{
+  position: absolute; 
+  width: 112px; 
+  height: 32px; 
+  left: 35px;
+  top: 230px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+}
+
+.alunes{
+  position: absolute; 
+  width: 112px; 
+  height: 32px; 
+  left: 35px;
+  top: 330px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+}
+
+
+.begin{
+  position: absolute;
+  width: 167px;
+  height: 24px;
+  left: 25px;
+  top: 412px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+.end{
+  position: absolute;
+  width: 329px;
+  height: 40px;
+  left: 25px;
+  top: 512px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+}
+
+.titulo{
+  position: absolute;
+  width: 208px;
+  height: 33px;
+  left: 25px;
+  top: 100px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+.descri{
+  position: absolute;
+  width: 314px;
+  height: 33px;
+  left: 25px;
+  top: 132px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+.about{
+  position: absolute;
+  width: 86px;
+  height: 167px;
+  left: 25px;
+  top: 612px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+}
+
+.mais{
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  left: 179px;
+  top: 730px;
+}
+
+.back{
+  position: absolute;
+  width: 143px;
+  height: 40px;
+  left: 25px;
+  bottom: -80px;
+  color: #5938A3;
+}
+
+.next{
+  position: absolute;
+  width: 119px;
+  height: 40px;
+  left: 235px;
+  bottom: -80px;
+}
+
+.skip{
+  position: absolute;
+  width: 119px;
+  height: 40px;
+  left: 235px;
+  bottom: -140px;
+  color: #5938A3;
+}

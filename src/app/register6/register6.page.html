@@ -1,9 +1,36 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>register6</ion-title>
+    <ion-title>register2</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+
+  <ion-progress-bar class="progress" color="borahae" value="1.0"></ion-progress-bar>
+
+
+  <ion-img class="backclip" src="assets/bg-clip.png" alt="falha ao carregar"></ion-img> 
+
+  <ion-text class="titulo" color="borahae">Visibilidade</ion-text>
+  <ion-text class="descri" color="borahae">Para empresas interessadas em contratar alunos da School 
+    e/ou outros alunos da School que buscam aumentar seu networking.
+  </ion-text>
+
+  <div>
+    <ion-text class="empresas" color="borahae">Empresas</ion-text>
+    <ion-toggle style="position: absolute; height: 32px; left: 250px; top: 220px;" color="borahae" checked></ion-toggle>
+    <ion-text class="alunes" color="borahae">Pessoas alunas</ion-text>
+    <ion-toggle style="position: absolute; height: 32px; left: 250px; top: 320px;" color="borahae" unchecked></ion-toggle>
+  </div>
+
+  <ion-fab class="mais" vertical="center" horizontal="end">
+    <ion-fab-button color="borahae">
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+  
+  <ion-button class="back" color="transparent" shape="round" size="default" (click)="back()">Voltar</ion-button>
+  <ion-button class="next" color="borahae" shape="round" size="default" (click)="next()">Finalizar</ion-button>
+  <ion-button class="skip" color="transparent" shape="round" size="default">Pular</ion-button>
 
 </ion-content>
